@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'foundation-rails'
 gem 'foundation-icons-sass-rails', '~> 3.0.0'
 gem 'haml-rails'
+gem 'newrelic_rpm'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.5'
