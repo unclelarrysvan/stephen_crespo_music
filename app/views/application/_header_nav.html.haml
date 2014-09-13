@@ -9,12 +9,17 @@
 
   %section.top-bar-section
     %ul.left
-      %li
-        %a{href: '/bio'} Bio
-      %li
-        %a{href: '/music'} Music
+      %li.has-dropdown
+        %a{href: '#'} Music
+        %ul.dropdown
+          %li
+            %a{href: '/audio'} Audio
+          %li
+            %a{href: '/video'} Video
       %li
         %a{href: '/shows'} Shows
+      %li
+        %a{href: '/about'} About
       %li
         %a{href: '/contact'} Contact
   %section.top-bar-section
@@ -25,3 +30,6 @@
       %li
         %a{href: 'http://www.youtube.com/channel/UCsihA-70Fws-f3IZFcJe2KA', target: '_blank'}
           %i.fi-social-youtube{style: 'font-size:32px'}
+      %li
+        %a{href: 'http://www.github.com/unclelarrysvan', target: '_blank'}
+          %i.fi-social-github{style: 'font-size:32px'}

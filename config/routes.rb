@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
    root 'application#home'
 
-   get 'bio' => 'application#bio', as: 'bio'
+   get 'about' => 'application#about', as: 'about'
    get 'music' => 'application#music', as: 'music'
+   get 'audio' => 'application#audio', as: 'audio'
+   get 'video' => 'application#video', as: 'video'
    get 'shows' => 'application#shows', as: 'shows'
    get 'contact' => 'application#contact', as: 'contact'
 
